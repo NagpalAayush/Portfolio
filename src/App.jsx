@@ -51,7 +51,7 @@ export default function PortfolioLanding() {
   };
 
   return (
-    <div className="bg-gray-900 text-white h-screen">
+    <div className="bg-gray-900 text-white overflow-hidden">
 
       {/* Header */}
       <motion.header layout className="fixed top-0 left-0 w-full bg-gray-900 text-white shadow-md z-50">
@@ -90,7 +90,7 @@ export default function PortfolioLanding() {
       </motion.header>
 
       {/* Hero Section */}
-      <motion.div ref={heroRef} className="h-screen flex flex-col items-center justify-center px-4" initial="hidden" animate="visible" variants={fadeIn}>
+      <motion.div ref={heroRef} className="h-screen  flex flex-col items-center justify-center px-4" initial="hidden" animate="visible" variants={fadeIn}>
         <motion.h1 className="text-4xl font-bold mb-3" variants={fadeInUp}>
           Hi, I'm Aayush Nagpal – MERN Stack Developer
         </motion.h1>
