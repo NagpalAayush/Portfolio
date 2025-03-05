@@ -57,7 +57,7 @@ export default function PortfolioLanding() {
       <motion.header layout className="fixed top-0 left-0 w-full bg-gray-900 text-white shadow-md z-50">
         <nav className="container mx-auto flex justify-between items-center px-6 py-4">
           {/* Logo */}
-          <h1 className="text-xl font-bold">Aayush Nagpal</h1>
+          <h1 className="text-xl font-bold">PORTFOLIO</h1>
 
           {/* Desktop Navigation */}
           <ul className="hidden md:flex space-x-6">
